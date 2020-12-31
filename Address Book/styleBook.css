@@ -1,0 +1,27 @@
+h1 {
+    color: red;
+}
+
+#head{
+    background-image: url("address-book.jpg");
+    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100% 20%;*/
+    padding: 2px;
+    padding-bottom: 9px;
+}
+
+#header{
+    background-color: green;
+}
+table{
+    width: 800px;
+    border: none;
+}
+#myTable{
+    text-align: center;
+}
+#myTable tr:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}

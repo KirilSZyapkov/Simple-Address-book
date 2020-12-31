@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="styleBook.css">
+    <script src="Script.js"></script>
+</head>
+
+<body onload="loadList()">
+    <div id="wrapper">
+
+        <form id="head">
+            <h1>ADDRESS BOOK</h1>
+
+            <input type="text" id="myName" placeholder="Add name">
+            <input type="text" id="myAddress" placeholder="Add address">
+            <input type="number" id="myPhone" placeholder="Add number">
+
+            <button type="button" class="myBtn" onclick="newInput()">Add</button>
+
+        </form>
+        <!--form-->
+
+        <div>
+            <table>
+                <thead id="header">
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Address
+                        </th>
+                        <th>
+                            Phone
+                        </th>
+                       
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                   
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
